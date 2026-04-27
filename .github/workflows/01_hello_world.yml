@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: welcome
-        run: echo 'Bienvenue dans la CI/CD pour l'API de satisfaction !'
+        run: echo "Bienvenue dans la CI/CD pour l'API de satisfaction !"
       - name: print date
         run: date
 
