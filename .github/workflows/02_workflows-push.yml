@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Récupération de l'application
-        uses: actions/checkout@V6
+        uses: actions/checkout@v6
       - name: init dependencies
         run: npm ci
