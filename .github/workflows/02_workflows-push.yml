@@ -5,5 +5,7 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
+      - name: Récupération de l'application
+        uses: actions/checkout@V6
       - name: init dependencies
         run: npm ci
