@@ -8,4 +8,4 @@ jobs:
       - name: Dit bonjour
         run: echo 'Hello World !'
       - name: Dit au revoir
-        run: echo Bye World !'
+        run: echo 'Bye World !'
