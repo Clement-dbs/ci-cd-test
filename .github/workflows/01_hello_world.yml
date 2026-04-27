@@ -9,3 +9,10 @@ jobs:
         run: echo 'Hello World !'
       - name: Dit au revoir
         run: echo 'Bye World !'
+  second-jobs:
+    name: second job
+    runs-on: ubuntu-latest
+    steps:
+      - name: etape 2
+        run: echo 'second job'
+
