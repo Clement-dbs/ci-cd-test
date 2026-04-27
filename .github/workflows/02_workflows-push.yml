@@ -1,0 +1,9 @@
+name : Init project
+on: push
+jobs:
+  first-jobs:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: init dependencies
+        run: npm ci
