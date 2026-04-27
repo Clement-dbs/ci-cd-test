@@ -1,8 +1,7 @@
 name: Tests Python
 
 on:
-  push:
-  pull_request:
+  - pull_request
 
 jobs:
   test:
