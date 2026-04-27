@@ -3,18 +3,12 @@ on:
   - workflow_dispatch
   - push
 jobs:
-  premier-jobs:
-    name: premier job
+  first-jobs:
+    name: first job
     runs-on: ubuntu-latest
     steps:
-      - name: Dit bonjour
-        run: echo 'Hello World !'
-      - name: Dit au revoir
-        run: echo 'Bye World !'
-  second-jobs:
-    name: second job
-    runs-on: ubuntu-latest
-    steps:
-      - name: etape 2
-        run: echo 'second job'
+      - name: welcome
+        run: echo 'Bienvenue dans la CI/CD pour l'API de satisfaction !'
+      - name: print date
+        run: date
 
